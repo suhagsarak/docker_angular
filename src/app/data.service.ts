@@ -10,17 +10,17 @@ export class DataService {
 
   SelectCategories()
   {
-   return this.http.get("http://192.168.5.120:6666/categories"); 
+   return this.http.get("http://172.18.5.70:7777/categories"); 
   }
   
   SelectProducts()
   {
-   return this.http.get("http://192.168.5.120:6666/products"); 
+   return this.http.get("http://172.18.5.70:7777/products"); 
   }
 
   SelectUsers()
   {
-   return this.http.get("http://192.168.5.120:6666/users"); 
+   return this.http.get("http://172.18.5.70:7777/users"); 
   }
 
 }
